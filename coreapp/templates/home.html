@@ -1,0 +1,32 @@
+{% extends "template.html" %}
+{% block content %}
+		
+	{% if form.long_url.errors %}
+	<div class="alert alert-danger" role="alert" {% if lang=='ar' %}dir="rtl" {% endif %}>
+        <span class="glyphicon glyphicon-warning-sign" aria-hidden="true"></span>
+        	{% for error in form.long_url.errors %}
+	          {{ error }}
+	        {% endfor %}
+        </div>
+        {% endif %}
+	<div class="jumbotron">
+		<form action="{{ url_for('home') }}" method="post">
+			{{ form.csrf_token }}
+			<div class="input-group">
+				{{ form.long_url(placeholder="http://",class="form-control") }}
+				<span class="input-group-btn">
+					<button class="btn btn-m btn-primary" type="submit">
+					{{ _('Go') }}
+					</button>
+				</span>
+			</div>
+		</form>
+
+	{% if short %}
+	<br>
+        <div class="alert alert-success" role="alert">
+                <h2><span class="glyphicon glyphicon-link" aria-hidden="true"></span> http://wis.al/{{short}}</h2>
+        </div>
+	{% endif %}
+		
+{% endblock %}

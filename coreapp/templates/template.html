@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+		<head>
+			<meta charset="utf-8">
+			<title>{{ _('apkal') }} | {{ _('URL shortener and tracking tool') }}</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<meta name="description" content="URL shortener and tracking tool. خدمة تقصير الرابط و رصد المتابعين">
+			<meta name="author" content="Jalal Maqdisi">
+			<!-- Le styles -->
+			<link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet" media="screen">
+			<link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+			<link rel="shortcut icon" href="/favicon.ico">
+		</head>
+		<body>
+		<div class="container">
+{% include "nav-main.html" %}
+<!-- container starts here -->  
+{% block content %}
+{% endblock %}
+<!-- /container -->
+		</div>
+		{% if links %}
+		<div class="panel panel-info">
+			<!-- Default panel contents -->
+			<div class="panel-heading" {% if lang=='ar' %}dir="rtl" {% endif %}>{{ _('Your links') }}</div>
+			<!-- Table -->
+			<div class="table-responsive">
+			<table class="table table-bordered table-striped">
+				<tr>
+					<th scope="row">{{ _('Short') }}</th>
+					<th scope="row">{{ _('Views') }}</th>
+					<th scope="row">{{ _('Original link') }}</th>
+					<th scope="row">{{ _('Date created') }}</th>
+				</tr>
+				{% for l in links %}
+				<tr>
+					<td><a href="/{{ l.short_url }}" target="_blank">/{{ l.short_url }}</a></td>
+		            <td>{{ l.views }}</td>
+					<td>
+						<a href="{{ l.long_url }}" target="_blank">
+							{{ l.long_url|truncate(50, true) }} </a>
+					</td>
+		            <td>{{ l.created.strftime('%d/%m/%Y %H:%M') }}</td> 
+	          	</tr>
+	          	{% endfor %}
+			</table>
+			</div>
+		</div>
+		{% endif %}
+		<div class="container" {% if lang=='ar' %}dir="rtl" {% endif %}>
+			<footer class="footer">
+				<div class="container">
+					<hr>
+						<p class="text-muted">&copy;2015</p>
+				</div>
+			</footer>
+		</div>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/jquery-1.10.1.min.js"><\/script>')</script>
+		<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+		</script>
+	</body>
+</html>

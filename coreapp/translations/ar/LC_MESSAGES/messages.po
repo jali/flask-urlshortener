@@ -1,0 +1,158 @@
+# Arabic translations for wisal.
+# Copyright (C) 2015 apkal ltd.
+# This file is distributed under the same license as the wisal project.
+# FIRST AUTHOR <Jalal.Maqdisi@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-04-05 23:01+0100\n"
+"PO-Revision-Date: 2015-04-03 18:46+0000\n"
+"Last-Translator: \n"
+"Language-Team: ar <LL@li.org>\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n>=3 "
+"&& n<=10 ? 3 : n>=11 && n<=99 ? 4 : 5)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+
+#: coreapp/templates/404.html:7
+msgid "File Not Found"
+msgstr "لم يتم العثور على الملف"
+
+#: coreapp/templates/404.html:8
+msgid "What you were looking for is just not there"
+msgstr "الذي تبحث عنه غير موجود هنا"
+
+#: coreapp/templates/404.html:9
+msgid "Back"
+msgstr "الرجوع"
+
+#: coreapp/templates/home.html:19
+msgid "Go"
+msgstr "الذهاب"
+
+#: coreapp/templates/nav-main.html:6 coreapp/templates/template.html:5
+msgid "apkal"
+msgstr "اپكال"
+
+#: coreapp/templates/nav-main.html:6
+msgid "url shortener"
+msgstr "تقصير الروابط"
+
+#: coreapp/templates/template.html:5
+msgid "URL shortener and tracking tool"
+msgstr "خدمة تقصير الرابط و رصد المتابعين"
+
+#: coreapp/templates/template.html:25
+msgid "Your links"
+msgstr "الروابط"
+
+#: coreapp/templates/template.html:30
+msgid "Short"
+msgstr "رابط قصير"
+
+#: coreapp/templates/template.html:31
+msgid "Views"
+msgstr "عدد المشاهدات"
+
+#: coreapp/templates/template.html:32
+msgid "Original link"
+msgstr "الرابط الأصلي"
+
+#: coreapp/templates/template.html:33
+msgid "Date created"
+msgstr "تاريخ الانشاء"
+
+#~ msgid "Home"
+#~ msgstr "الصفحة الرئيسية"
+
+#~ msgid "Sign in"
+#~ msgstr "تسجيل الدخول"
+
+#~ msgid "Login"
+#~ msgstr "الدخول"
+
+#~ msgid "Username"
+#~ msgstr "أسم المستخدم"
+
+#~ msgid "Password"
+#~ msgstr "كلمة السر"
+
+#~ msgid "Confirm password"
+#~ msgstr "تأكيد كلمة السر"
+
+#~ msgid "Email"
+#~ msgstr "البريد الالكتروني"
+
+#~ msgid "Sign up"
+#~ msgstr "سجل"
+
+#~ msgid "Please fill out the registration form"
+#~ msgstr "يرجى ملء استمارة التسجيل"
+
+#~ msgid "You are logged in"
+#~ msgstr "تم دخولك الان"
+
+#~ msgid "Your links"
+#~ msgstr "الروابط"
+
+#~ msgid "Please confirm your password"
+#~ msgstr "يرجى التأكد من صحة كلمة المرور الخاصة بك"
+
+#~ msgid "URL shortener and tracking tool"
+#~ msgstr "خدمة تقصير الرابط و رصد المتابعين"
+
+#~ msgid "please try again"
+#~ msgstr "حاول مرة اخرى رجاءآ"
+
+#~ msgid "You've been logged out"
+#~ msgstr "لقد قمت بتسجيل دخولك مسبقا"
+
+#~ msgid "You need to login first"
+#~ msgstr "يجب عليك تسجيل الدخول اولآ"
+
+#~ msgid "Your link must contain the protocol http:// or https:// at the begining"
+#~ msgstr "يجب أن يحتوي رابطك على بروتوكول http: // أو https: // في البداية."
+
+#~ msgid "URL too short"
+#~ msgstr "الرابط قصير جدا"
+
+#~ msgid "Invalid credentials"
+#~ msgstr "بيانات الاعتماد غير صالحة"
+
+#~ msgid "Username must contain at least 3 characters"
+#~ msgstr "يجب أن يحتوي اسم المستخدم ما لا يقل عن 3 أحرف"
+
+#~ msgid "Username must not contains spaces"
+#~ msgstr "اسم المستخدم يجب ألا يحتوي على فراغات"
+
+#~ msgid "Log out"
+#~ msgstr "تسجيل الخروج"
+
+#~ msgid "Hello"
+#~ msgstr "مرحبا"
+
+#~ msgid "Logout"
+#~ msgstr "تسجيل الخروج"
+
+#~ msgid "Register"
+#~ msgstr "التسجيل"
+
+#~ msgid "Registration"
+#~ msgstr "التسجيل"
+
+#~ msgid "About"
+#~ msgstr "عن وصال"
+
+#~ msgid "This field is required."
+#~ msgstr "هذا الحقل مطلوب."
+
+#~ msgid "Invalid URL."
+#~ msgstr "الرابط غير صالح."
+
+#~ msgid "Apkal"
+#~ msgstr "ابكال"
+

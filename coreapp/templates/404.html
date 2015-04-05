@@ -1,0 +1,14 @@
+<!-- extend base layout -->
+{% extends "template.html" %}
+{% block content %}
+<div class="modal-dialog" {% if lang=='ar' %}dir="rtl" {% endif %}>
+	<div class="modal-content">
+		<div class="modal-header">
+	    	<h1>{{ _('File Not Found') }}</h1>
+	  		<p>{{_('What you were looking for is just not there')}}.
+	  		<p><a href="{{ url_for('home') }}">{{ _('Back') }}</a></p>
+	  	</div>
+	 </div>
+</div>
+
+{% endblock %}
