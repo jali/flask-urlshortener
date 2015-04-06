@@ -1,8 +1,7 @@
 # Flask-URLShortener
 Flask URL shortener using wtforms, sqlalchemy, babel, bootstrap and postgresql
 
-
-(screenshot.png?raw=true "Flask URL shortener")
+![alt tag](https://raw.githubusercontent.com/maqdisi/Flask-URLShortener/master/screenshot.png)
 
 
 Installation:
