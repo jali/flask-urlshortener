@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #ignore
 .htaccess
 #wsgi file - ignore it!
@@ -75,4 +74,3 @@ docs/_build/
 
 # PyBuilder
 target/
->>>>>>> 9443a90... Initial commit
