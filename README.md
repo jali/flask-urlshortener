@@ -20,7 +20,8 @@ Follow the steps below:
 	* export APP_SETTINGS="config.DevelopmentConfig"
 
 Add your psql to your machine's path
-**Example for psql on Mac OS X**
+
+*Example for psql on Mac OS X*
 
 	export PATH=/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH
 	
