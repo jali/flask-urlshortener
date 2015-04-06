@@ -1,6 +1,5 @@
 from coreapp import db
 from flask.ext.sqlalchemy import SQLAlchemy
-from sqlalchemy import Sequence
 from datetime import datetime
 
 
