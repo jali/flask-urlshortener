@@ -1,7 +1,6 @@
 #!/usr/local/bin/python
 
 from coreapp import db
-from flask.ext.sqlalchemy import SQLAlchemy
 from datetime import datetime
 
 

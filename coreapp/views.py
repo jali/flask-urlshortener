@@ -1,8 +1,7 @@
 #!/usr/local/bin/python
 # -*- coding: utf-8 -*-
 
-from flask import render_template, redirect, request, session, url_for, abort
-from sqlalchemy import Sequence
+from flask import render_template, redirect, request, abort
 from coreapp import app, db, babel
 from config import LANGUAGES
 from forms import ShortForm
