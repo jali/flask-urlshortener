@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+
 from flask_wtf import Form
 from wtforms import TextField
 from wtforms.fields.html5 import URLField

@@ -1,3 +1,4 @@
+#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
 
 from flask import render_template, redirect, request, session, url_for, abort
