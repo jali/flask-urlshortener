@@ -1,5 +1,10 @@
-# Flask-URLShortener
-Flask URL shortener using wtforms, sqlalchemy, babel, bootstrap and postgresql
+# URL Shortener
+
+This URL Shortener is a service that takes long URL and squeezes it into short characters to make a link that is easier to share, tweet, or email to friends.
+
+The app is using python flask, bootstrap and postgresql database. The core function is here: [https://github.com/maqdisi/python-url-shortener](https://github.com/maqdisi/python-url-shortener)
+
+This service supports internationalization (i18n) such as English, Deutsch and Arabic عربي
 
 ![Default language: English](https://raw.githubusercontent.com/maqdisi/Flask-URLShortener/master/screenshots/screenshot-en.png)
 
@@ -7,17 +12,17 @@ Flask URL shortener using wtforms, sqlalchemy, babel, bootstrap and postgresql
 Installation:
 -------------
 Create your postgres database.
-As per config.py setting the database is: urls
+As per config.py setting the database name is: urls
 
 	psql
 	CREATE DATABASE urls;
 
 Follow the steps below:
 
-	* git clone https://github.com/maqdisi/Flask-URLShortener
-	* cd Flask-URLShortener
-	* workon <your virtual environment>
-	* export APP_SETTINGS="config.DevelopmentConfig"
+	$ git clone https://github.com/maqdisi/Flask-URLShortener
+	$ cd Flask-URLShortener
+	$ workon <your virtual environment>
+	$ export APP_SETTINGS="config.DevelopmentConfig"
 
 Add your psql to your machine's path
 
@@ -27,22 +32,23 @@ Add your psql to your machine's path
 	
 Continue by executing the folowing commands:
 
-	* pip install psycopg2
-	* pip install -r requirements.txt
-	* run python db-create.db
+	$ pip install psycopg2
+	$ pip install -r requirements.txt
+	$ python db-create.db
 
 
 To run the app:
 ---------------
-	run python web.py
+	$ python web.py
 
 Goto: [http://localhost:8081](http://localhost:8081)
 
 
-German:
--------
-![Detecting language: German](https://raw.githubusercontent.com/maqdisi/Flask-URLShortener/master/screenshots/screenshot-de.png)
 
-Arabic:
--------
-![Detecting language: Arabic](https://raw.githubusercontent.com/maqdisi/Flask-URLShortener/master/screenshots/screenshot-ar.png)
+**German locale:**
+
+![Detecting language: German](https://raw.githubusercontent.com/maqdisi/Flask-URLShortener/master/screenshots/screenshot-de.png =300x)
+
+**Arabic locale:**
+
+![Detecting language: Arabic](https://raw.githubusercontent.com/maqdisi/Flask-URLShortener/master/screenshots/screenshot-ar.png =300x)
