@@ -1,6 +1,5 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
 from flask import render_template, redirect, request, abort
 from coreapp import app, db, babel
 from config import LANGUAGES
@@ -34,7 +33,6 @@ def home():
                 )
                 db.session.add(sh)
                 db.session.commit()
-
         links = Short.query.order_by('created desc').all()
         return render_template('home.html', links=links, short=short, lang=get_locale(), form=form)
 

@@ -1,5 +1,4 @@
 #!/usr/bin/python
-
 from coreapp import db
 from datetime import datetime
 
@@ -21,3 +20,4 @@ class Short(db.Model):
 
 	def __repr__(self):
 		return "<Short('%s', '%s')>" % (self.long_url, self.views)
+

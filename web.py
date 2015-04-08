@@ -1,5 +1,4 @@
 #!/usr/bin/python
-
 from coreapp import app
 
 if __name__ == "__main__":
