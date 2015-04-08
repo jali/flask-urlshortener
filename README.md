@@ -53,3 +53,4 @@ Goto: [http://localhost:8081](http://localhost:8081)
 
 ![Detecting language: Arabic](https://raw.githubusercontent.com/maqdisi/Flask-URLShortener/master/screenshots/screenshot-ar.png)
 
+
