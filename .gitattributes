@@ -1,6 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
+# github linguist
+*.py linguist-language=Python
+
 # Set diff handlers for Python files.
 *.py text diff=python
 
