@@ -9,7 +9,7 @@ env:
  - APP_SETTINGS="config.DevelopmentConfig"
 
 before_script:
- - psql -U postgres -c "create database url;"
+ - psql -U postgres -c "create database urls;"
 
 install:
  - pip install -r requirements.txt
