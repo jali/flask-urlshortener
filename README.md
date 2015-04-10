@@ -1,4 +1,4 @@
-# URL Shortener
+# URL Shortener | Travis CI Status [![Build Status](https://travis-ci.org/maqdisi/Flask-URLShortener.svg?branch=master)](https://travis-ci.org/maqdisi/Flask-URLShortener.svg)
 
 This URL Shortener is a service that takes long URL and squeezes it into short characters to make a link that is easier to share, tweet, or email to friends.
 
@@ -34,7 +34,7 @@ Continue by executing the folowing commands:
 
 	$ pip install psycopg2
 	$ pip install -r requirements.txt
-	$ python db-create.db
+	$ python db_create.db
 
 
 To run the app:
