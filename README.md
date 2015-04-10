@@ -1,4 +1,5 @@
-# URL Shortener | Travis CI Status [![Build Status](https://travis-ci.org/maqdisi/Flask-URLShortener.svg?branch=master)](https://travis-ci.org/maqdisi/Flask-URLShortener.svg)
+# URL Shortener
+Travis CI Status [![Build Status](https://travis-ci.org/maqdisi/Flask-URLShortener.svg?branch=master)](https://travis-ci.org/maqdisi/Flask-URLShortener.svg)
 
 This URL Shortener is a service that takes long URL and squeezes it into short characters to make a link that is easier to share, tweet, or email to friends.
 
