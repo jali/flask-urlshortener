@@ -15,6 +15,6 @@ install:
  - pip install -r requirements.txt
 
 script:
- - python python manage.py test
+ - python manage.py test
 
 
