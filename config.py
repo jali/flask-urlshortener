@@ -22,12 +22,13 @@ class StagingConfig(Config):
 class DevelopmentConfig(Config):
     DEVELOPMENT = True
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = "postgresql://localhost/urls"
     # SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'urls.db')
-
+    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:postgres@localhost/urls'
 
 class TestingConfig(Config):
     TESTING = True
+    SQLALCHEMY_DATABASE_URI = "postgresql://localhost/urls"
+
 
 
 LANGUAGES = {
