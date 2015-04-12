@@ -9,6 +9,10 @@ class AppTestCase(BaseTestCase):
 		response = self.client.get('/', content_type='html/text')
 		self.assertEqual(response.status_code, 200)
 
+	def test_page_loads(self):
+		response = self.client.get('/', content_type='html/text')
+		self.assertIn(b'Your links', response.data)
+
 
 if __name__ == '__main__':
 	unittest.main()

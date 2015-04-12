@@ -27,7 +27,7 @@ class DevelopmentConfig(Config):
 
 class TestingConfig(Config):
     TESTING = True
-    SQLALCHEMY_DATABASE_URI = "postgresql://localhost/urls"
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'urls.db')
 
 
 
