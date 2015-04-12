@@ -1,9 +1,9 @@
 # URL Shortener
-Travis CI Status [![Build Status](https://travis-ci.org/maqdisi/Flask-URLShortener.svg?branch=master)](https://travis-ci.org/maqdisi/Flask-URLShortener.svg)
+Travis CI Status [![Build Status](https://travis-ci.org/maqdisi/flask-urlshortener.svg?branch=master)](https://travis-ci.org/maqdisi/flask-urlshortener)
 
-This URL Shortener is a service that takes long URL and squeezes it into short characters to make a link that is easier to share, tweet, or email to friends.
+This is a service that takes long URL and squeezes it into short characters to make a link that is easier to share, tweet, or email to friends.
 
-The app is using python flask, bootstrap and postgresql database. The core function is here: [https://github.com/maqdisi/python-url-shortener](https://github.com/maqdisi/python-url-shortener)
+The app is using python flask, bootstrap and postgresql database.
 
 This service supports internationalization (i18n) such as English, Deutsch and Arabic عربي
 
