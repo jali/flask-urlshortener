@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# this test runs against dev db
+
 from coreapp import app
 import unittest
 
