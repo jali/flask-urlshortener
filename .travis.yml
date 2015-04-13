@@ -15,7 +15,10 @@ install:
  - pip install -r requirements.txt
 
 script:
- - python db_create.py
- - python test.py
+# run simple test on development db
+# - python db_create.py
+# - python test.py
 
+# run tests against test db
+ - python manage.py test
 
