@@ -20,8 +20,8 @@ As per config.py setting the database name is: urls
 
 Follow the steps below:
 
-	$ git clone https://github.com/maqdisi/Flask-URLShortener
-	$ cd Flask-URLShortener
+	$ git clone https://github.com/maqdisi/flask-urlshortener
+	$ cd flask-urlshortener
 	$ workon <your virtual environment>
 	$ export APP_SETTINGS="config.DevelopmentConfig"
 
