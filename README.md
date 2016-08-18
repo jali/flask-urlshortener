@@ -36,11 +36,22 @@ Continue by executing the folowing commands:
 	$ pip install -r requirements.txt
 	$ python db_create.py
 
+Run the tests:
+--------------
+	$ python manage.py test
+	
+
 To run the app:
 ---------------
 	$ python web.py
 
 Goto: [http://localhost:8081](http://localhost:8081)
+
+OR you can use runserver like this:
+
+	$ python manage.py runserver
+Then goto: [http://localhost:5000](http://localhost:5000)
+
 
 Update translation:
 -------------------

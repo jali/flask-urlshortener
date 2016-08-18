@@ -14,7 +14,7 @@ class BaseTestCase(TestCase):
 	def setUp(self):
 		db.create_all()
 		db.session.add(Short("1", "http://twitter.com/jalalmaqdisi"))
-		db.session.add(Short("2", "https://github.com/maqdisi/flask-urlshortener"))
+		db.session.add(Short("2", "http://jal.al"))
 		db.session.commit()
 
 	def tearDown(self):
