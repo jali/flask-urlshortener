@@ -34,7 +34,7 @@ msgid "Go"
 msgstr ""
 
 #: coreapp/templates/nav-main.html:6 coreapp/templates/template.html:5
-msgid "apkal"
+msgid "wisal"
 msgstr ""
 
 #: coreapp/templates/nav-main.html:6

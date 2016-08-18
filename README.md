@@ -20,7 +20,7 @@ As per config.py setting the database name is: urls
 
 Follow the steps below:
 
-	$ git clone https://github.com/maqdisi/flask-urlshortener
+	$ git clone https://github.com/jali/flask-urlshortener
 	$ cd flask-urlshortener
 	$ workon <your virtual environment>
 	$ export APP_SETTINGS="config.DevelopmentConfig"
@@ -34,10 +34,17 @@ Add your psql to your machine's path
 Continue by executing the folowing commands:
 
 	$ pip install -r requirements.txt
-	$ python db_create.db
+	$ python db_create.py
 
 To run the app:
 ---------------
 	$ python web.py
 
 Goto: [http://localhost:8081](http://localhost:8081)
+
+Update translation:
+-------------------
+If you change text or values, you need to run the following inside your vitrual env.
+	
+	$ pybabel update -i messages.pot -d coreapp/translations
+	$ pybabel compile -d coreapp/translations

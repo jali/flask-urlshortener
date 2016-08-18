@@ -1,5 +1,5 @@
 # Arabic translations for wisal.
-# Copyright (C) 2015 apkal ltd.
+# Copyright (C) 2015 Wadoha ltd.
 # This file is distributed under the same license as the wisal project.
 # FIRST AUTHOR <Jalal.Maqdisi@gmail.com>, 2015.
 #
@@ -35,8 +35,8 @@ msgid "Go"
 msgstr "الذهاب"
 
 #: coreapp/templates/nav-main.html:6 coreapp/templates/template.html:5
-msgid "apkal"
-msgstr "اپكال"
+msgid "wisal"
+msgstr "وصال"
 
 #: coreapp/templates/nav-main.html:6
 msgid "url shortener"
@@ -153,6 +153,6 @@ msgstr "تاريخ الانشاء"
 #~ msgid "Invalid URL."
 #~ msgstr "الرابط غير صالح."
 
-#~ msgid "Apkal"
-#~ msgstr "ابكال"
+#~ msgid "ّWisal"
+#~ msgstr "وصال"
 

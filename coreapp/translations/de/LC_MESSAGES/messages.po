@@ -34,8 +34,8 @@ msgid "Go"
 msgstr "Los"
 
 #: coreapp/templates/nav-main.html:6 coreapp/templates/template.html:5
-msgid "apkal"
-msgstr "apkal"
+msgid "wisal"
+msgstr "wisal"
 
 #: coreapp/templates/nav-main.html:6
 msgid "url shortener"
@@ -65,6 +65,6 @@ msgstr "Zu verkürzende URL"
 msgid "Date created"
 msgstr "Erstellungsdatum"
 
-#~ msgid "Apkal"
-#~ msgstr "Apkal"
+#~ msgid "Wisal"
+#~ msgstr "Wisal"
 
