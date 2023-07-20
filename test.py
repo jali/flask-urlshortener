@@ -1,9 +1,7 @@
 #!/usr/bin/python
 # this test runs against dev db
-
 from coreapp import app
 import unittest
-
 
 class SimpleTestCase(unittest.TestCase):
 	def test_index(self):
@@ -17,7 +15,5 @@ class SimpleTestCase(unittest.TestCase):
 		response = tester.get('/', content_type='html/text')
 		self.assertIn(b'Your links', response.data)
 
-
 if __name__ == '__main__':
 	unittest.main()
-
